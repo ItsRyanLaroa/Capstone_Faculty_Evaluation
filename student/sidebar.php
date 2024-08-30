@@ -5,14 +5,23 @@
    
     }
     .layout-navbar-fixed .wrapper .sidebar-dark-primary .brand-link:not([class*=navbar]) {
-    background-color: #b31b1b;
-}
+      background-color: #b31b1b;
+  }
+.sidebar {
+      padding: 45px 8px;
+    }
+    .sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, 
+    .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+      background-color: #000;
+      color: #fff;
+    }
   </style>
   
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <div class="dropdown">
    	<a href="./" class="brand-link">
      <h3 class="text-center p-0 m-0"><b style="color: yellow;">SCC-EVALUATION</b></h3>
+     <h3 class="text-center p-0 m-0"><b style="color: yellow;">SYSTEM</b></h3>
 
     </a>
       

@@ -6,20 +6,18 @@
   <title>Admin Panel</title>
   <link rel="stylesheet" href="path/to/your/styles.css">
   <style>
-   
     .main-sidebar {
       background-color: #b31b1b;
-      
     }
     .layout-navbar-fixed .wrapper .sidebar-dark-primary .brand-link:not([class*=navbar]) {
       background-color: #b31b1b;
-     
     }
-    .sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    .sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, 
+    .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
       background-color: #000;
       color: #fff;
     }
-    .sidebar{
+    .sidebar {
       padding: 45px 8px;
     }
   </style>
@@ -30,8 +28,8 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <div class="dropdown">
       <a href="./" class="brand-link">
-      <h3 class="text-center p-0 m-0"><b style="color: yellow;">SCC-EVALUATION</b></h3>
-      <h3 class="text-center p-0 m-0"><b style="color: yellow;">SYSTEM</b></h3>
+        <h3 class="text-center p-0 m-0"><b style="color: yellow;">SCC-EVALUATION</b></h3>
+        <h3 class="text-center p-0 m-0"><b style="color: yellow;">SYSTEM</b></h3>
       </a>
     </div>
     <div class="sidebar">
@@ -45,43 +43,43 @@
           </li>
           <li class="nav-item dropdown">
             <a href="./index.php?page=subject_list" class="nav-link nav-subject_list">
-              <i class="nav-icon fas fa-th-list"></i>
+              <i class="nav-icon fas fa-book"></i>
               <p>Subjects</p>
             </a>
           </li> 
           <li class="nav-item dropdown">
             <a href="./index.php?page=class_list" class="nav-link nav-class_list">
-              <i class="nav-icon fas fa-list-alt"></i>
+              <i class="nav-icon fas fa-chalkboard-teacher"></i>
               <p>Classes</p>
             </a>
           </li> 
           <li class="nav-item dropdown">
             <a href="./index.php?page=academic_list" class="nav-link nav-academic_list">
-              <i class="nav-icon fas fa-calendar"></i>
+              <i class="nav-icon fas fa-calendar-alt"></i>
               <p>Academic Year</p>
             </a>
           </li> 
           <li class="nav-item dropdown">
             <a href="./index.php?page=questionnaire" class="nav-link nav-questionnaire">
-              <i class="nav-icon fas fa-file-alt"></i>
+              <i class="nav-icon fas fa-question-circle"></i>
               <p>Questionnaires</p>
             </a>
           </li>
           <li class="nav-item dropdown">
             <a href="./index.php?page=criteria_list" class="nav-link nav-criteria_list">
-              <i class="nav-icon fas fa-list-alt"></i>
+              <i class="nav-icon fas fa-tasks"></i>
               <p>Evaluation Criteria</p>
             </a>
           </li> 
           <li class="nav-item dropdown">
             <a href="./index.php?page=staff_questionnaire" class="nav-link nav-staff_questionnaire">
-              <i class="nav-icon fas fa-user-tie"></i>
+              <i class="nav-icon fas fa-user-edit"></i>
               <p>Staff Questionnaire</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link nav-edit_faculty">
-              <i class="nav-icon fas fa-user-friends"></i>
+              <i class="nav-icon fas fa-users"></i>
               <p>
                 Faculties
                 <i class="right fas fa-angle-left"></i>
@@ -90,13 +88,13 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="./index.php?page=new_faculty" class="nav-link nav-new_faculty tree-item">
-                  <i class="fas fa-angle-right nav-icon"></i>
+                  <i class="fas fa-user-plus nav-icon"></i>
                   <p>Add New</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="./index.php?page=faculty_list" class="nav-link nav-faculty_list tree-item">
-                  <i class="fas fa-angle-right nav-icon"></i>
+                  <i class="fas fa-list nav-icon"></i>
                   <p>List</p>
                 </a>
               </li>
@@ -104,7 +102,7 @@
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link nav-edit_student">
-              <i class="nav-icon fa ion-ios-people-outline"></i>
+              <i class="nav-icon fas fa-user-graduate"></i>
               <p>
                 Students
                 <i class="right fas fa-angle-left"></i>
@@ -113,13 +111,13 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="./index.php?page=new_student" class="nav-link nav-new_student tree-item">
-                  <i class="fas fa-angle-right nav-icon"></i>
+                  <i class="fas fa-user-plus nav-icon"></i>
                   <p>Add New</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="./index.php?page=student_list" class="nav-link nav-student_list tree-item">
-                  <i class="fas fa-angle-right nav-icon"></i>
+                  <i class="fas fa-list nav-icon"></i>
                   <p>List</p>
                 </a>
               </li>
@@ -136,13 +134,13 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="./index.php?page=new_staff" class="nav-link nav-new_staff tree-item">
-                  <i class="fas fa-angle-right nav-icon"></i>
+                  <i class="fas fa-user-plus nav-icon"></i>
                   <p>Add New</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="./index.php?page=staff_list" class="nav-link nav-staff_list tree-item">
-                  <i class="fas fa-angle-right nav-icon"></i>
+                  <i class="fas fa-list nav-icon"></i>
                   <p>List</p>
                 </a>
               </li>
@@ -150,19 +148,19 @@
           </li>
           <li class="nav-item dropdown">
             <a href="./index.php?page=report" class="nav-link nav-report">
-              <i class="nav-icon fas fa-list-alt"></i>
+              <i class="nav-icon fas fa-file-alt"></i>
               <p>Evaluation Report</p>
             </a>
           </li>
           <li class="nav-item dropdown">
             <a href="./index.php?page=staff_report" class="nav-link nav-staff_report">
-              <i class="nav-icon fas fa-list-alt"></i>
+              <i class="nav-icon fas fa-clipboard-list"></i>
               <p>Staff Report</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link nav-edit_user">
-              <i class="nav-icon fas fa-users"></i>
+              <i class="nav-icon fas fa-user-cog"></i>
               <p>
                 Admin
                 <i class="right fas fa-angle-left"></i>
@@ -171,13 +169,13 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="./index.php?page=new_user" class="nav-link nav-new_user tree-item">
-                  <i class="fas fa-angle-right nav-icon"></i>
+                  <i class="fas fa-user-plus nav-icon"></i>
                   <p>Add New</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="./index.php?page=user_list" class="nav-link nav-user_list tree-item">
-                  <i class="fas fa-angle-right nav-icon"></i>
+                  <i class="fas fa-list nav-icon"></i>
                   <p>List</p>
                 </a>
               </li>

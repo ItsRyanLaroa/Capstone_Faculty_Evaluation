@@ -9,11 +9,16 @@
       background-color: #000;
       color: #fff;
     }
+
+    .sidebar {
+      padding: 45px 8px;
+    }
   </style>
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <div class="dropdown">
         <a href="./" class="brand-link">
             <h3 class="text-center p-0 m-0"><b style="color: yellow;">SCC-EVALUATION</b></h3>
+            <h3 class="text-center p-0 m-0"><b style="color: yellow;">SYSTEM</b></h3>
         </a>
     </div>
     <div class="sidebar">
